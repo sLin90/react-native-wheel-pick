@@ -15,7 +15,7 @@ if (isNewArchitectureEnabled()) {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 35
     namespace 'com.tron'
 
     defaultConfig {

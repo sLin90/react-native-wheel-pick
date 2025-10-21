@@ -93,7 +93,7 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
             handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    picker.setSelectedItemPosition(index);
+                    picker.setSelectedItemPosition(index, false);
                     picker.invalidate();
                 }
             });
