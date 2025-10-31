@@ -343,6 +343,7 @@ export default class DatePicker extends PureComponent {
             this.hourComponent = hour;
           }}
           {...propsStyles}
+          {...this.props}
           selectedValue={this.state.date.getHours()}
           pickerData={hours}
           onValueChange={this.onHourChange}
@@ -354,6 +355,7 @@ export default class DatePicker extends PureComponent {
             this.minuteComponent = minute;
           }}
           {...propsStyles}
+          {...this.props}
           selectedValue={this.state.date.getMinutes()}
           pickerData={minutes}
           onValueChange={this.onMinuteChange}
